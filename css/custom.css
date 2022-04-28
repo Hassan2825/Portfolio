@@ -1,8 +1,55 @@
-/* NAVBAR */
-.nav-link {
-    color: black;
+* {
+    box-sizing: border-box;
 }
+/* 
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+} */
 
 .hidden {
     display: none;
 }
+
+.nav-contact, .nav-link, .navbar-nav {
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.jumbotron, .nav-div {
+    background-color: #F3D503;
+}
+
+.sidebar-email {
+    writing-mode: vertical-rl;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: black;
+    top: 20rem;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.main-btn-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.main-btn {
+    border: 1px solid white;
+    padding: 30px;
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    color:white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
