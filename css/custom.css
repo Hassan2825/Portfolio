@@ -1,39 +1,31 @@
 * {
     box-sizing: border-box;
 }
-/* 
+
 body {
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Roboto', sans-serif;
-} */
+    max-width: 100%;
+}
 
 .hidden {
     display: none;
 }
 
 .nav-contact, .nav-link, .navbar-nav {
-    color: black;
+    color: white;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 0.1em;
+    font-family: brandon-grotesque, sans-serif;
 }
 
-.jumbotron, .nav-div {
-    background-color: #F3D503;
+.jumbotron {
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.sidebar-email {
-    writing-mode: vertical-rl;
-    font-family: 'Permanent Marker', cursive;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    color: black;
-    top: 20rem;
-    bottom:0;
-    position:fixed;
-    overflow-y:scroll;
-    overflow-x:hidden;
+.nav-div{
+    background-color: #274046;
 }
 
 .main-btn-div {
@@ -50,6 +42,71 @@ body {
     background-color: transparent;
     color:white;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: brandon-grotesque, sans-serif;
 }
 
+.main-heading {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 4rem;
+}
+
+.sub-heading {
+    color: white;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+}
+
+.who-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #274046;
+    font-family: brandon-grotesque, sans-serif;
+}
+
+.who-header {
+    color: black;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.who-content {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    color: white;
+}
+
+.social-icons {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.recent-header {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    color: white;
+    font-size: 3rem;
+}
+
+/* @media (min-width: 567px) {
+    .sidebar-email {
+        writing-mode: vertical-rl;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 400;
+        text-decoration: none;
+        letter-spacing: 0.1em;
+        color: black;
+        top: 20rem;
+        bottom:0;
+        position:relative;
+        overflow-x:hidden;
+    }
+} */
