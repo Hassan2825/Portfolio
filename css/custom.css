@@ -11,21 +11,15 @@ body {
 }
 
 .nav-contact, .nav-link, .navbar-nav {
-    color: white;
+    color: #05386b;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 0.1em;
     font-family: brandon-grotesque, sans-serif;
 }
 
-.jumbotron {
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.nav-div{
-    background-color: #274046;
+.jumbotron, .nav-div {
+    background-color: #5CDB95;
 }
 
 .main-btn-div {
@@ -36,47 +30,41 @@ body {
 }
 
 .main-btn {
-    border: 1px solid white;
+    border: 2px solid #EDF5E1;;
     padding: 30px;
     letter-spacing: 0.1em;
     background-color: transparent;
-    color:white;
-    font-weight: 400;
-    font-family: brandon-grotesque, sans-serif;
+    color: #EDF5E1;;
+    font-weight: 700;
+    font-family: le-havre-rounded,sans-serif;
 }
 
 .main-heading {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 300;
+    font-family: le-havre-rounded,sans-serif;
+    font-weight: 700;
     font-style: normal;
-    color: white;
+    color: #EDF5E1;
     font-size: 4rem;
 }
 
 .sub-heading {
-    color: white;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 500;
+    color: #EDF5E1;
+    font-family: le-havre-rounded,sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
-.who-page {
+.intro-page {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #274046;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: le-havre-rounded,sans-serif;
+    background-color:#5CDB95; 
+    color: #EDF5E1;
 }
 
-.who-header {
-    color: black;
-    font-family: brandon-grotesque, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-}
-
-.who-content {
-    font-family: brandon-grotesque, sans-serif;
+.intro-content {
+    font-family: le-havre-rounded,sans-serif;
     font-weight: 500;
     font-style: normal; 
     color: white;
@@ -88,12 +76,24 @@ body {
 }
 
 .recent-header {
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 500;
+    font-family: le-havre-rounded,sans-serif;
+    font-weight: 700;
     font-style: normal; 
-    color: white;
+    color: #EDF5E1;
     font-size: 3rem;
 }
+
+
+.intro-header {
+    font-family: le-havre-rounded,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: #EDF5E1;
+    font-size: 3rem;
+
+
+}
+
 
 /* @media (min-width: 567px) {
     .sidebar-email {
