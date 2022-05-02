@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    max-width: 100%;
+    width: 100%;
 }
 
 .hidden {
@@ -12,7 +14,7 @@ body {
 
 .nav-contact, .nav-link, .navbar-nav {
     color: #05386b;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.1em;
     font-family: brandon-grotesque, sans-serif;
@@ -22,52 +24,65 @@ body {
     background-color: #5CDB95;
 }
 
-.main-btn-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-weight: 500;
-}
-
 .main-btn {
-    border: 2px solid #EDF5E1;;
+    border: 2px solid white;;
     padding: 30px;
     letter-spacing: 0.1em;
     background-color: transparent;
-    color: #EDF5E1;;
+    color: white;;
     font-weight: 700;
-    font-family: le-havre-rounded,sans-serif;
+    font-family: le-havre,sans-serif;
 }
 
 .main-heading {
     font-family: le-havre-rounded,sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #EDF5E1;
-    font-size: 4rem;
+    color: white;
+    font-size: 3.5rem;
 }
 
 .sub-heading {
-    color: #EDF5E1;
+    color: white;
     font-family: le-havre-rounded,sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+.hand1 {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.hand2 {
+    width: 100%;
 }
 
 .intro-page {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: le-havre-rounded,sans-serif;
-    background-color:#5CDB95; 
-    color: #EDF5E1;
+    font-family: le-havre,sans-serif;
+    background-color:white; 
+    color: #5CDB95;
+    height: 40rem;
+    padding-top: 3rem;
 }
 
-.intro-content {
-    font-family: le-havre-rounded,sans-serif;
-    font-weight: 500;
-    font-style: normal; 
-    color: white;
+.introp0 {
+    font-size: 0.8rem;
+}
+
+.introp1 {
+    font-size: 1.2rem ;
+}
+
+.introp2 {
+    font-size: 1rem;
 }
 
 .social-icons {
@@ -76,24 +91,35 @@ body {
 }
 
 .recent-header {
-    font-family: le-havre-rounded,sans-serif;
+    font-family: le-havre,sans-serif;
     font-weight: 700;
     font-style: normal; 
-    color: #EDF5E1;
-    font-size: 3rem;
+    color: white;
+    font-size: 5rem;
 }
-
 
 .intro-header {
-    font-family: le-havre-rounded,sans-serif;
+    font-family: le-havre,sans-serif;
     font-weight: 700;
     font-style: normal; 
-    color: #EDF5E1;
+    color: #5CDB95;
     font-size: 3rem;
 }
 
+.peace-content {
+    max-width: 100%;
+    font-family: le-havre,sans-serif;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 3rem;
+    color: #5CDB95;
+}
 
-
+.DevByHassan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* @media (min-width: 567px) {
     .sidebar-email {
