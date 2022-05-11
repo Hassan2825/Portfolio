@@ -132,6 +132,8 @@ h1 {
 }
 /* --- /NAV PAGE --- */
 
+
+/* --- SKILL PAGE --- */
 .background-design {
   position: absolute;
   display: flex;
@@ -155,5 +157,52 @@ h1 {
   font-weight: 500;
   font-style: normal;
 }
+/* --- /SKILL PAGE --- */
 
+
+
+/* --- /WHO PAGE --- */
+.who {
+  position: relative;
+  background-color: #BC4C0D;
+  color: black;
+  font-family: ff-ginger-pro,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 5%;
+}
+/* --- /WHO PAGE --- */
+
+
+
+
+
+
+/* --- RECENT WORK --- */
+.recent-work .card {
+  font-family: ff-ginger-pro,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #BC4C0D;
+  color: white;
+  border-radius: 5%;
+}
+
+.recent-heading {
+  position: relative;
+  color: black;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.recent-description {
+  position: relative;
+  font-family: ff-ginger-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 1.2rem;
+  text-align: left;
+}
+/* --- /RECENT WORK --- */
 
