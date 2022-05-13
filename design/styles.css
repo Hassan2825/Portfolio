@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: white;
-}
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23BC4C0D' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");}
 
 /* --- LANDING PAGE HEADER --- */
 .outter {
@@ -107,14 +107,26 @@ h1 {
     font-weight: 300;
     font-style: normal;
 }
-
-.nav {
-    background-color: #BC4C0D;
-    min-width: 100%;
-}
 /* --- /LANDING PAGE HEADER --- */
 
 /* --- NAV PAGE --- */
+.nav {
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
+    min-width: 100%;
+}
+
 .nav-link {
     font-family: ff-ginger-pro,sans-serif;
     font-weight: 500;
@@ -130,29 +142,24 @@ h1 {
     color: white;
     font-size: 1.3rem;
 }
-
-.square {
-  position: absolute;
-  background-color: #BC4C0D;
-  width: 2rem;
-  height: 2rem;
-  color: black;
-}
 /* --- /NAV PAGE --- */
 
-
 /* --- SKILL PAGE --- */
-.background-design {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-
-}
-
 .skill {
   position: relative;
-  background-color: #BC4C0D;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
   border-radius: 10%;
   color: white;
   font-family: ff-ginger-pro,sans-serif;
@@ -168,148 +175,162 @@ h1 {
 }
 /* --- /SKILL PAGE --- */
 
-
 /* --- /WHO PAGE --- */
 .who {
   position: relative;
-  background-color: #BC4C0D;
-  color: black;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
+  color: white;
   font-family: ff-ginger-pro,sans-serif;
   font-weight: 200;
   font-style: normal;
+  border-radius: 5%;
   padding: 5%;
 }
 /* --- /WHO PAGE --- */
-
-/* --- RECENT WORK --- */
-.recent-work .card {
-  font-family: ff-ginger-pro,sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  background-color: #BC4C0D;
-  color: white;
-  border-radius: 5%;
-}
-
-.recent-heading {
-  position: relative;
-  color: black;
-  font-size: 4rem;
-  text-align: left;
-}
-
-.recent-work img {
-  border-radius: 10%;
-}
-
-.blocks {
-  display: flex;
-  justify-content: center;
-}
-
-.blocks1 {
-  display: flex;
-}
-
-.blocks2 {
-  display: flex;
-  justify-content: flex-end
-}
-
-.element {
-  position: absolute;
-  display: inline-block;
-  background-color: #BC4C0D;
-  height: 100px;
-  width: 100px;
-  font-size: 1px;
-  color: black;
-  animation: roll 5s infinite;
-  transform: rotate(30deg);
-  opacity: 0.7;
-}
-
-.element1 {
-  position: absolute;
-  display: inline-block;
-  background-color: #BC4C0D;
-  height: 100px;
-  width: 100px;
-  font-size: 1px;
-  color: black;
-  animation: roll 5s infinite;
-  transform: rotate(30deg);
-  opacity: 0.7;
-}
-
-.element2 {
-  position: absolute;
-  display: inline-block;
-  background-color: #BC4C0D;
-  height: 100px;
-  width: 100px;
-  font-size: 1px;
-  color: black;
-  animation: roll 5s infinite;
-  transform: rotate(30deg);
-  opacity: 0.7;
-}
-/* --- /RECENT WORK --- */
-
 
 /* --- SOCIAL-ICONS --- */
 .social-icons {
   display: flex;
   justify-content: space-evenly;
 }
+
 .social-icons svg{
-  background-color: #BC4C0D;
-  width:60px; 
-  height:60px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
+  width:50px; 
+  height:50px;
   color: white;
   border-radius: 30%;
   padding:0.5%;
 } 
+.grow svg {
+  transition: 0.5s ease;
+  }
+  
+  .grow svg:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(1.5);
+  transition: 1s ease;
+  }
 /* --- /SOCIAL-ICONS --- */
 
-/* RECENT-WORK-BUTTON */
-
+/* --- RECENT-WORK-BUTTON --- */
 .recent-work-button {
   position: relative;
-  background-color: white;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
   font-family: ff-ginger-pro,sans-serif;
-  font-style: normal;
+  font-style: italic;
   color: white;
-  border-radius: 5%;
-  border: 10px solid #BC4C0D;
-  width: 40%;
-  margin-top: 8rem;
+  margin-top: 4rem;
+  padding: 2%;
 }
 
 .recent-work-button button {
-  font-size:1.5rem;
-  background-color: white;
-  border: 5px solid #BC4C0D;
-  padding: 1%;
-  color: #BC4C0D;
+  font-size:1rem;
+  background-color: transparent;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
+  border: 1px solid white;
 }
 
 .recent-work-button p {
-  font-family: ff-ginger-pro,sans-serif;
-  font-style: normal;
-  color: #BC4C0D;
-  font-size: 3rem;
-
+  font-size: 1.3rem;
 }
 /* ---/RECENT-WORK-BUTTON */
 
+/* --- RECENT-WORK-CARDS --- */
+.recent-work .card {
+  font-family: ff-ginger-pro,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+}
+
+.recent-heading {
+  position: relative;
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
+}
+
+.recent-work img {
+  border-radius: 10%;
+  box-shadow: 3px 3px 3px 3px #BC4C0D;
+}
+
+
+/* --- /RECENT-WORK-CARDS --- */
 
 /* --- FOOTER --- */
 .footer {
   clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
   width: 100%;
   height: 15rem;
-  background: #BC4C0D;
+  background-image: linear-gradient(
+    45deg,
+    hsl(22deg 87% 39%) 0%,
+    hsl(22deg 100% 34%) 7%,
+    hsl(19deg 100% 31%) 11%,
+    hsl(15deg 100% 28%) 15%,
+    hsl(9deg 100% 25%) 18%,
+    hsl(0deg 100% 22%) 22%,
+    hsl(0deg 100% 19%) 28%,
+    hsl(0deg 100% 16%) 37%,
+    hsl(0deg 100% 14%) 55%,
+    hsl(0deg 0% 0%) 100%
+  );
   bottom: 0;
   margin-top: 7rem;
 }
